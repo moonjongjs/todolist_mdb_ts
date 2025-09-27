@@ -1,0 +1,43 @@
+.modal-overlay {
+  z-index: 5;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  .modal-content {
+    background: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    min-width: 320px;
+    text-align: center;
+    p {
+      font-size: 20px;
+      padding: 10px 0;
+    }
+    .modal-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+      button {
+        width: 100px;
+        height: 36px;
+        border: none;
+        border-radius: 3px;
+        font-size: 14px;
+        cursor: pointer;
+        opacity: 1;
+        transition: all 0.3s;
+        &:hover {
+          opacity: 0.8;
+        }
+        &.cancel  { background: #ccc; }
+        &.confirm { background: #222; color: #fff; }
+      }
+    }
+  }
+}
