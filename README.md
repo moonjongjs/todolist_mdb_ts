@@ -24,9 +24,11 @@ GitHub와 Vercel을 통한 **CI/CD 자동 배포**까지 적용했습니다.
 ---
 
 ## ⚡ 주요 기능
-- ✅ 할일 CRUD (등록, 수정, 삭제, 선택삭제)  
-- 📅 만료일 입력 & D-Day 카운트  
-- 🔍 필터 & 정렬 (오늘, 이번주, 이번달, 연도별 / 만료일 오름·내림차순)  
+- ✅ 할일 CRUD (등록, 수정, 삭제, 선택삭제, 복원, 완전삭제)  
+- 📅 만료일 입력 & D-Day 카운트
+- 🔍 필터1 : 전체기간, 오늘, 이번 주, 지난 주, 다음 주, 이번 달, 지난 달, 다음 달, 3개월 이내, 6개월 이내, 올해, 지난 해, 내년, 만료된 항목 / 초기화
+- 🔍 필터2 : 할일, 만료된 항목, 완료된 항목, 삭제된 항목 / 초기화
+- 🔍 정렬 : 최근 추가순, 오래된 추가순, 만료일 늦은순, 만료일 빠른순
 - 📊 전체 / 완료 / 미완료 개수 집계  
 - 🔄 페이지네이션 (그룹 단위)  
 - ⚠️ Confirm Modal (삭제/수정 전 사용자 확인)  
@@ -195,8 +197,8 @@ yarn start
 ---
 
 ## 🌐 배포
-- **Vercel 배포 주소** 👉 [Demo Link](https://todolist-mdb-ts.vercel.app/)  
-- **GitHub Repository** 👉 [GitHub Link](https://github.com/moonjongjs/todolist_mdb_ts.git)  
+- **Vercel 배포 주소** 👉 [Demo Link : https://todolist-mdb-ts.vercel.app](https://todolist-mdb-ts.vercel.app/)  
+- **GitHub Repository** 👉 [GitHub Link : https://github.com/moonjongjs/todolist_mdb_ts.git](https://github.com/moonjongjs/todolist_mdb_ts.git)  
 
 ---
 
